@@ -1,0 +1,21 @@
+CREATE TABLE "tayah" (
+	"AyaID"	INTEGER,
+	"SuraID"	INTEGER,
+	"AyaNo"	INTEGER,
+	"ArabicText"	TEXT,
+	"FatehMuhammadJalandhrield"	TEXT,
+	"MehmoodulHassan"	TEXT,
+	"DrMohsinKhan"	TEXT,
+	"MuftiTaqiUsmani"	TEXT,
+	"RakuID"	INTEGER,
+	"PRakuID"	INTEGER,
+	"ParaID"	INTEGER
+);
+CREATE TABLE "tsurah" (
+	"SurahID"	INTEGER,
+	"SurahIntro"	TEXT,
+	"SurahNameE"	TEXT,
+	"Nazool"	TEXT,
+	"SurahNameU"	TEXT
+);
+

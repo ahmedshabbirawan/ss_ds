@@ -1,0 +1,82 @@
+{
+    "language": "urd",
+    "books": [
+        {
+            "book": "urd-abudawud",
+            "name": "Sunan Abu Dawud",
+            "name_native": "سنن ابوداؤد",
+            "hadith_count": 5274,
+            "section_count": 43,
+            "checksum": "3bb8ea231f57d411628d9c6f5a04f650e7eaaacc00a07ad0c1cc5c044588c703",
+            "zip_path": "urd/urd-abudawud.sqlite.zip",
+            "file_size": 7380992,
+            "zip_size": 2211023
+        },
+        {
+            "book": "urd-bukhari",
+            "name": "Sahih al Bukhari",
+            "name_native": "صحیح بخاری",
+            "hadith_count": 7278,
+            "section_count": 97,
+            "checksum": "3d21980829b02451f886b5875e0b1023b920aa1972d282b5dcea03b54ba8c33b",
+            "zip_path": "urd/urd-bukhari.sqlite.zip",
+            "file_size": 13590528,
+            "zip_size": 4141984
+        },
+        {
+            "book": "urd-ibnmajah",
+            "name": "Sunan Ibn Majah",
+            "name_native": "سنن ابن ماجہ",
+            "hadith_count": 4077,
+            "section_count": 37,
+            "checksum": "4d9906bed0ffbae4ed8d906ef306c39836fa0ea01ba34c437b1f7fb81055846a",
+            "zip_path": "urd/urd-ibnmajah.sqlite.zip",
+            "file_size": 4337664,
+            "zip_size": 1405515
+        },
+        {
+            "book": "urd-malik",
+            "name": "Muwatta Malik",
+            "name_native": "موطا امام مالک",
+            "hadith_count": 1840,
+            "section_count": 61,
+            "checksum": "61ce94dc73ac39f7b8105b85beb30fc80626f4f157ee4b65de66c46bb57599e3",
+            "zip_path": "urd/urd-malik.sqlite.zip",
+            "file_size": 1789952,
+            "zip_size": 591137
+        },
+        {
+            "book": "urd-muslim",
+            "name": "Sahih Muslim",
+            "name_native": "صحیح مسلم",
+            "hadith_count": 7219,
+            "section_count": 56,
+            "checksum": "a3715eccf203cdf368b4299f4488b8b3d830549e87e3e97ad38565c67a366613",
+            "zip_path": "urd/urd-muslim.sqlite.zip",
+            "file_size": 9764864,
+            "zip_size": 3052880
+        },
+        {
+            "book": "urd-nasai",
+            "name": "Sunan an Nasai",
+            "name_native": "سنن نسائی",
+            "hadith_count": 5683,
+            "section_count": 51,
+            "checksum": "9558e1e0d97b3fbd8e2009ee691d4baa2e93ccc8bfafbd81cdc36030c5ef1aa2",
+            "zip_path": "urd/urd-nasai.sqlite.zip",
+            "file_size": 4829184,
+            "zip_size": 1513325
+        },
+        {
+            "book": "urd-tirmidhi",
+            "name": "Jami At Tirmidhi",
+            "name_native": "جامع ترمذی",
+            "hadith_count": 3998,
+            "section_count": 49,
+            "checksum": "27502a10ac9c997554a4832d213fe9643371373678287116c55eaf6c3269fd07",
+            "zip_path": "urd/urd-tirmidhi.sqlite.zip",
+            "file_size": 7168000,
+            "zip_size": 2272392
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+-- Contains global metadata for the specific database file.
+CREATE TABLE book_info (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    book_name TEXT,
+    hadith_count INTEGER
+);
+-- Represents the chapters or sections of the Hadith book.
+CREATE TABLE sections (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    section_name TEXT,
+    start_hadith_number INTEGER,
+    end_hadith_number INTEGER,
+    hadith_count INTEGER
+);
+-- Stores the actual text of each Hadith and its references.
+CREATE TABLE hadiths (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    hadith_number INTEGER,
+    text TEXT,
+    section_id INTEGER,
+    book_id INTEGER,
+    FOREIGN KEY (section_id) REFERENCES sections (id)
+);
+-- Provides academic authenticity gradings (e.g., Sahih, Hasan, Da'if) for each Hadith where available.
+CREATE TABLE grades (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    hadith_id INTEGER,
+    scholar_name TEXT,
+    grade TEXT,
+    FOREIGN KEY (hadith_id) REFERENCES hadiths (id)
+);
+-- SQLite FTS5 full-text search table, automatically synchronized with hadiths using SQLite triggers.
+CREATE VIRTUAL TABLE hadiths_fts USING fts5(
+    text,
+    content='hadiths'
+);
