@@ -275,6 +275,18 @@
            "file_size": null,
            "zip_size": null
        },
+       "adhkar_db":{
+        "book": "adhkar_db",
+        "name": "Adhkar & Dua",
+        "name_native": "Azkar",
+        "hadith_count": 0,
+        "section_count": 1,
+        "checksum": null,
+        "zip_path": "db/adhkar/adhkar_v1.zip",
+        "schema_path": "db/quran/schema_v1.sqlite",
+        "file_size": null,
+        "zip_size": null
+       },
        "islamic_posts":{
            "api_url":"https://salamsocial.pk/wp-json/wp/v2/posts",
            "post_type": ["post"]

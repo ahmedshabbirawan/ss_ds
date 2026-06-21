@@ -1,0 +1,8 @@
+CREATE TABLE "adhkar_content" (
+	"id"	INTEGER,
+	"category"	TEXT DEFAULT null,
+	"title"	TEXT DEFAULT null,
+	"content"	TEXT DEFAULT null,
+	"ref"	TEXT DEFAULT null,
+	PRIMARY KEY("id" AUTOINCREMENT)
+)

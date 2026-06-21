@@ -1,0 +1,52 @@
+# Role & Goal
+You are an expert mobile app developer. Build a cross-platform mobile application by using flutter based on the architectural specifications, data requirements, and UI structure detailed below.
+
+---
+
+## 1. App Initialization & Dynamic Configuration (Critical Step)
+On every app launch, before loading any content, the app must fetch a remote configuration JSON file to determine data sources dynamically. This ensures the app doesn’t break if domains or repository URLs change.
+
+* **Remote Config URL:** `https://ahmedshabbirawan.github.io/ss_ds/config.json`
+* **Config Data Expected:**
+  * Download links for the offline SQLite files (Quran, Hadith, Adhkar).
+  * Base URL for the WordPress Website (for Posts and WooCommerce Products).
+  * If you require any change or update in `config.json` file in during development. please suggest me.  
+---
+
+## 2. Core Modules & Content Types
+
+### Type A: Offline / Local Database Content
+If it is the app's first launch, use the URLs from the remote config to download and initialize a local **SQLite database**. Subsequent launches should read directly from this local database. Every db have schema detail in config.json file. e.g "schema_path": "db/quran/schema_v1.sqlite"
+1. **Quran:** Browse, read, and search Quranic chapters and verses offline.
+2. **Hadith:** Browse and search collections of Hadith offline.
+3. **Adhkar (Azkar):** Display daily supplications and authentic Azkar offline.
+
+### Type B: Device-Based Local Tools
+3. **Qibla Direction:** Use the device's compass and location sensors to calculate and visually show the direction to the Kaaba.
+4. **Namaz (Prayer) Timing:** * Calculate local prayer times based on GPS location.
+   * Provide user settings to switch between different Islamic Fiqh calculation methods (e.g., Hanafi, Shafi'i).
+   * Implement local background notifications to alert the user at the exact time of each Namaz.
+
+### Type C: Dynamic WordPress & WooCommerce Integration
+Fetch this content via the WordPress REST API using the domain provided in the remote config file.
+5. **Islamic Posts (WordPress Blog):** Fetch and display latest posts. Show the featured image, title, and full description/content in a clean layout.
+6. **Shop (WooCommerce):** Fetch and display products from the WooCommerce store. Display the product image, title, description, price, and a link/button to view or purchase.
+
+---
+
+## 3. UI/UX Structure
+
+### Main Dashboard (Home Screen)
+On app startup (after the config file is checked), present a clean, grid-based or list-based dashboard showing all **7 main modules** clearly:
+1. Quran
+2. Hadith
+3. Adhkar
+4. Qibla Direction
+5. Namaz Timing
+6. Islamic Posts
+7. Shop
+
+### Design & Architecture Guidelines
+* Ensure graceful handling, loading states, and error messages if the remote config file or WordPress API is unreachable.
+* Optimize SQLite queries for fast search and smooth scrolling within the Quran and Hadith modules.
+* Request necessary user permissions (Location for Prayer times/Qibla, and Notifications for Prayer alerts) smoothly.
