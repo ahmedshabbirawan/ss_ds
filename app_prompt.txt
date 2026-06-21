@@ -37,7 +37,7 @@ Fetch this content via the WordPress REST API using the domain provided in the r
 ## 3. UI/UX Structure
 
 ### Main Dashboard (Home Screen)
-On app startup (after the config file is checked), present a clean, grid-based or list-based dashboard showing all **7 main modules** clearly:
+On app startup (after the config file is checked), present a clean, grid-based or list-based dashboard showing all **7 main modules with Namaz timing widget like current namaz time or Next Namaz time** clearly:
 1. Quran
 2. Hadith
 3. Adhkar

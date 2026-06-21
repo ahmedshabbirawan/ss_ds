@@ -1,0 +1,303 @@
+{
+    "base_url":"https://salamsocial.pk",
+    "db_path":"https://ahmedshabbirawan.github.io/ss_ds/db",
+    "app_version":"01",
+    "file_version":"1",
+     "module":[
+       {
+      "name_en":"Quran",
+      "name_ur":"قرآن",
+      "key":"quran",
+      "purpose" : "",
+      "content":"quran_db"
+     },
+   {
+       "name_en":"Hadith",
+       "name_ur":"حدیث",
+       "key":"quran",
+       "purpose" : "",
+       "content":"hadith_db"
+   },
+   {
+       "name_en":"Adhkar And Dua",
+       "name_ur":"اذکار",
+       "key":"adhkar",
+       "purpose" : "",
+       "content":"adhkar_db"
+   },
+   {
+       "name_en":"Qibla Direction",
+       "name_ur":"کعبہ ڈائریکشن",
+       "key":"qibla_direction",
+       "purpose" : "",
+       "content":"library"
+   },
+   {
+       "name_en":"Namaz Timing",
+       "name_ur":"نماز کے اوقات",
+       "key":"namaz_timing",
+       "purpose" : "",
+       "content":"library"
+   }
+   ,{
+       "name_en":"Islamic Post",
+       "name_ur":"اسلامک پوسٹ",
+       "key":"islamic_post",
+       "purpose" : "",
+       "content":"islamic_posts"
+   },
+   {
+    "name_en":"Shop",
+    "name_ur":"خریداری",
+    "key":"shop",
+    "purpose" : "",
+    "content":"shop"
+}
+   ],
+       "hadith_db":{
+           "urd": [
+           {
+               "book": "urd-abudawud",
+               "name": "Sunan Abu Dawud",
+               "name_native": "سنن ابوداؤد",
+               "hadith_count": 5274,
+               "section_count": 43,
+               "checksum": "3bb8ea231f57d411628d9c6f5a04f650e7eaaacc00a07ad0c1cc5c044588c703",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/urd/urd-abudawud.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 7380992,
+               "zip_size": 2211023
+           },
+           {
+               "book": "urd-bukhari",
+               "name": "Sahih al Bukhari",
+               "name_native": "صحیح بخاری",
+               "hadith_count": 7278,
+               "section_count": 97,
+               "checksum": "3d21980829b02451f886b5875e0b1023b920aa1972d282b5dcea03b54ba8c33b",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/urd/urd-bukhari.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 13590528,
+               "zip_size": 4141984
+           },
+           {
+               "book": "urd-ibnmajah",
+               "name": "Sunan Ibn Majah",
+               "name_native": "سنن ابن ماجہ",
+               "hadith_count": 4077,
+               "section_count": 37,
+               "checksum": "4d9906bed0ffbae4ed8d906ef306c39836fa0ea01ba34c437b1f7fb81055846a",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/urd/urd-ibnmajah.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 4337664,
+               "zip_size": 1405515
+           },
+           {
+               "book": "urd-malik",
+               "name": "Muwatta Malik",
+               "name_native": "موطا امام مالک",
+               "hadith_count": 1840,
+               "section_count": 61,
+               "checksum": "61ce94dc73ac39f7b8105b85beb30fc80626f4f157ee4b65de66c46bb57599e3",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/urd/urd-malik.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 1789952,
+               "zip_size": 591137
+           },
+           {
+               "book": "urd-muslim",
+               "name": "Sahih Muslim",
+               "name_native": "صحیح مسلم",
+               "hadith_count": 7219,
+               "section_count": 56,
+               "checksum": "a3715eccf203cdf368b4299f4488b8b3d830549e87e3e97ad38565c67a366613",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/urd/urd-muslim.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 9764864,
+               "zip_size": 3052880
+           },
+           {
+               "book": "urd-nasai",
+               "name": "Sunan an Nasai",
+               "name_native": "سنن نسائی",
+               "hadith_count": 5683,
+               "section_count": 51,
+               "checksum": "9558e1e0d97b3fbd8e2009ee691d4baa2e93ccc8bfafbd81cdc36030c5ef1aa2",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/urd/urd-nasai.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 4829184,
+               "zip_size": 1513325
+           },
+           {
+               "book": "urd-tirmidhi",
+               "name": "Jami At Tirmidhi",
+               "name_native": "جامع ترمذی",
+               "hadith_count": 3998,
+               "section_count": 49,
+               "checksum": "27502a10ac9c997554a4832d213fe9643371373678287116c55eaf6c3269fd07",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/urd/urd-tirmidhi.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 7168000,
+               "zip_size": 2272392
+           }
+       ],
+           "eng": [
+           {
+               "book": "eng-abudawud",
+               "name": "Sunan Abu Dawud",
+               "name_native": "Sunan Abu Dawud",
+               "hadith_count": 5274,
+               "section_count": 43,
+               "checksum": "0fb823c9752b5e54ce0f22e7cecc043b6ba3b6798e26a843ce2fd101e9515c8d",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/eng/eng-abudawud.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 4452352,
+               "zip_size": 1886151
+           },
+           {
+               "book": "eng-bukhari",
+               "name": "Sahih al Bukhari",
+               "name_native": "Sahih al-Bukhari",
+               "hadith_count": 7278,
+               "section_count": 97,
+               "checksum": "2bdffa26dfa30d77123256d947cf4c2da2acc092376c55409f9b4407b1013035",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/eng/eng-bukhari.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 6533120,
+               "zip_size": 2827989
+           },
+           {
+               "book": "eng-dehlawi",
+               "name": "Forty Hadith of Shah Waliullah Dehlawi",
+               "name_native": "Forty Hadith of Shah Waliullah Dehlawi",
+               "hadith_count": 40,
+               "section_count": 1,
+               "checksum": "185f5ceb1bbd68e8346e13aa5ef2e2ba50c0f4faf87726accd3711540f86a616",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/eng/eng-dehlawi.sqlite.zip",
+               "schema_path": "hadith/schema.sqlite",
+               "file_size": 49152,
+               "zip_size": 4936
+           },
+           {
+               "book": "eng-ibnmajah",
+               "name": "Sunan Ibn Majah",
+               "name_native": "Sunan Ibn Majah",
+               "hadith_count": 4077,
+               "section_count": 37,
+               "checksum": "c9c7bab3a70f43df924fb3e82799f9d50195efbc36b1450fa3720d14aea0e351",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/eng/eng-ibnmajah.sqlite.zip",
+                "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 2904064,
+               "zip_size": 1192524
+           },
+           {
+               "book": "eng-malik",
+               "name": "Muwatta Malik",
+               "name_native": "Muwatta Malik",
+               "hadith_count": 1840,
+               "section_count": 61,
+               "checksum": "24e9de99c00e6161d2370900229f89d205fa7592aabf54ef4fdc11b19a702c12",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/eng/eng-malik.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 2158592,
+               "zip_size": 839748
+           },
+           {
+               "book": "eng-muslim",
+               "name": "Sahih Muslim",
+               "name_native": "Sahih Muslim",
+               "hadith_count": 7219,
+               "section_count": 56,
+               "checksum": "62a0d5a51eef551d5e4a9825bfd42d4a1909789d72d822014f712bace92db916",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/eng/eng-muslim.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 5394432,
+               "zip_size": 2160931
+           },
+           {
+               "book": "eng-nasai",
+               "name": "Sunan an Nasai",
+               "name_native": "Sunan an-Nasai",
+               "hadith_count": 5683,
+               "section_count": 51,
+               "checksum": "a836a467b06aba57e5665bf5a6cc7690b636766e30fe4e173f4d704f449318e2",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/eng/eng-nasai.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 4038656,
+               "zip_size": 1593528
+           },
+           {
+               "book": "eng-nawawi",
+               "name": "Forty Hadith of an-Nawawi",
+               "name_native": "Forty Hadith of an-Nawawi",
+               "hadith_count": 42,
+               "section_count": 1,
+               "checksum": "afce2f79a58347e16429088a46b9a16ed31bd8819b03b41ed0557c01725c1494",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/eng/eng-nawawi.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 106496,
+               "zip_size": 28516
+           },
+           {
+               "book": "eng-qudsi",
+               "name": "Forty Hadith Qudsi",
+               "name_native": "Forty Hadith Qudsi",
+               "hadith_count": 40,
+               "section_count": 1,
+               "checksum": "912bca9f9df97c8ca53f0716a144f88fada51d8d917d4cdb07990c1755e1924d",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/eng/eng-qudsi.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 118784,
+               "zip_size": 31604
+           },
+           {
+               "book": "eng-tirmidhi",
+               "name": "Jami At Tirmidhi",
+               "name_native": "Jami At-Tirmidhi",
+               "hadith_count": 3998,
+               "section_count": 49,
+               "checksum": "e024bf2c1f5d6783a2007bcd5f29d3db072c7052ee013b8f35e9d7eb34554d21",
+               "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/eng/eng-tirmidhi.sqlite.zip",
+               "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/hadith/schema.sqlite",
+               "file_size": 3207168,
+               "zip_size": 1361813
+           }
+       ]    
+       },
+       "quran_db":{
+           "book": "quran",
+           "name": "Quran Kareem",
+           "name_native": "Quran",
+           "hadith_count": 0,
+           "section_count": 114,
+           "checksum": null,
+           "zip_path": "https://ahmedshabbirawan.github.io/ss_ds/db/quran/quran_v2.zip",
+           "schema_path": "https://ahmedshabbirawan.github.io/ss_ds/db/quran/schema_v2.sqlite",
+           "file_size": null,
+           "zip_size": null
+       },
+       "adhkar_db":{
+        "book": "adhkar_db",
+        "name": "Adhkar & Dua",
+        "name_native": "Azkar",
+        "hadith_count": 0,
+        "section_count": 1,
+        "checksum": null,
+        "zip_path": "db/adhkar/adhkar_v1.zip",
+        "schema_path": "db/quran/schema_v1.sqlite",
+        "file_size": null,
+        "zip_size": null
+       },
+       "islamic_posts":{
+           "api_url":"https://salamsocial.pk/wp-json/wp/v2/posts",
+           "post_type": ["post"]
+       },
+       "shop":{
+           "api_url":"https://salamsocial.pk/wp-json/wp/v2/product",
+           "post_type": ["product"]
+       },
+       "library":{
+        "source":"use github or pub.dev"
+       }
+   }
+   
