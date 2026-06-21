@@ -1,6 +1,8 @@
 {
     "base_url":"https://salamsocial.pk",
     "db_path":"https://ahmedshabbirawan.github.io/ss_ds/db",
+    "app_version":"01",
+    "file_version":"1",
      "module":[
        {
       "name_en":"Quran",
